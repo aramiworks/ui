@@ -1,23 +1,49 @@
 import type { Meta, StoryObj } from "@storybook/react-vite";
 import { XStack, YStack, Text } from "tamagui";
+import { fontSize } from "../../../../tokens/generated/typography";
 
-const specs = [
-  { property: "Display Large", value: "57sp / Regular" },
-  { property: "Display Medium", value: "45sp / Regular" },
-  { property: "Display Small", value: "36sp / Regular" },
-  { property: "Headline Large", value: "32sp / Regular" },
-  { property: "Headline Medium", value: "28sp / Regular" },
-  { property: "Headline Small", value: "24sp / Regular" },
-  { property: "Title Large", value: "22sp / Regular" },
-  { property: "Title Medium", value: "16sp / Medium" },
-  { property: "Title Small", value: "14sp / Medium" },
-  { property: "Body Large", value: "16sp / Regular" },
-  { property: "Body Medium", value: "14sp / Regular" },
-  { property: "Body Small", value: "12sp / Regular" },
-  { property: "Label Large", value: "14sp / Medium" },
-  { property: "Label Medium", value: "12sp / Medium" },
-  { property: "Label Small", value: "11sp / Medium" },
-];
+const ROLE_WEIGHT: Record<keyof typeof fontSize, "Regular" | "Medium"> = {
+  displayLarge: "Regular",
+  displayMedium: "Regular",
+  displaySmall: "Regular",
+  headlineLarge: "Regular",
+  headlineMedium: "Regular",
+  headlineSmall: "Regular",
+  titleLarge: "Regular",
+  titleMedium: "Medium",
+  titleSmall: "Medium",
+  bodyLarge: "Regular",
+  bodyMedium: "Regular",
+  bodySmall: "Regular",
+  labelLarge: "Medium",
+  labelMedium: "Medium",
+  labelSmall: "Medium",
+};
+
+const ROLE_LABEL: Record<keyof typeof fontSize, string> = {
+  displayLarge: "Display Large",
+  displayMedium: "Display Medium",
+  displaySmall: "Display Small",
+  headlineLarge: "Headline Large",
+  headlineMedium: "Headline Medium",
+  headlineSmall: "Headline Small",
+  titleLarge: "Title Large",
+  titleMedium: "Title Medium",
+  titleSmall: "Title Small",
+  bodyLarge: "Body Large",
+  bodyMedium: "Body Medium",
+  bodySmall: "Body Small",
+  labelLarge: "Label Large",
+  labelMedium: "Label Medium",
+  labelSmall: "Label Small",
+};
+
+const specs = (Object.keys(ROLE_LABEL) as Array<keyof typeof fontSize>).map(
+  (role) => ({
+    property: ROLE_LABEL[role],
+    value: `${fontSize[role]}sp / ${ROLE_WEIGHT[role]}`,
+  }),
+);
 
 function SpecRow({
   property,
