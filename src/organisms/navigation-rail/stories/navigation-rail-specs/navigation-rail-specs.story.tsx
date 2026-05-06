@@ -12,13 +12,13 @@ const specs = [
   { property: "Destination gap", value: "4 dp (icon to label)" },
   {
     property: "Active indicator color",
-    value: "md.sys.color.secondary-container",
+    value: "secondaryContainer",
   },
   {
     property: "Active icon color",
-    value: "md.sys.color.on-secondary-container",
+    value: "onSecondaryContainer",
   },
-  { property: "Inactive icon color", value: "md.sys.color.on-surface-variant" },
+  { property: "Inactive icon color", value: "onSurfaceVariant" },
 ];
 
 function SpecRow({

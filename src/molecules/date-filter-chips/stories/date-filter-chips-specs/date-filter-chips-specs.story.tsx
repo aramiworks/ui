@@ -7,7 +7,7 @@ const specs = [
   { property: "Chip corner radius", value: "8 dp" },
   { property: "Chip padding horizontal", value: "12 dp" },
   { property: "Font", value: "Label Large (14sp, Medium)" },
-  { property: "Selected color", value: "md.sys.color.secondary-container" },
+  { property: "Selected color", value: "secondaryContainer" },
 ];
 
 function SpecRow({

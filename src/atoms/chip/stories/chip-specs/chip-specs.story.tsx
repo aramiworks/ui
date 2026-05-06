@@ -7,8 +7,8 @@ const specs = [
   { property: "Padding horizontal", value: "16 dp" },
   { property: "Icon size", value: "18 dp" },
   { property: "Font", value: "Label Large (14sp, Medium)" },
-  { property: "Container color", value: "md.sys.color.surface" },
-  { property: "Outline", value: "1 dp, md.sys.color.outline" },
+  { property: "Container color", value: "surface" },
+  { property: "Outline", value: "1 dp, outline" },
 ];
 
 function SpecRow({

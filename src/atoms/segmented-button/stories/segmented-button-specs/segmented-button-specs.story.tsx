@@ -9,10 +9,10 @@ const specs = [
   { property: "Font", value: "Label Large (14sp, Medium)" },
   {
     property: "Container (selected)",
-    value: "md.sys.color.secondary-container",
+    value: "secondaryContainer",
   },
-  { property: "Container (unselected)", value: "md.sys.color.surface" },
-  { property: "Outline color", value: "md.sys.color.outline" },
+  { property: "Container (unselected)", value: "surface" },
+  { property: "Outline color", value: "outline" },
 ];
 
 function SpecRow({

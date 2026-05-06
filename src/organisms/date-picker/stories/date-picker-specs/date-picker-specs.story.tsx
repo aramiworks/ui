@@ -7,8 +7,8 @@ const specs = [
   { property: "Day cell size", value: "48 × 48 dp" },
   { property: "Corner radius", value: "28 dp" },
   { property: "Selected day indicator", value: "40 dp circle" },
-  { property: "Container color", value: "md.sys.color.surface-container-high" },
-  { property: "Header color", value: "md.sys.color.surface-container-high" },
+  { property: "Container color", value: "surfaceContainerHigh" },
+  { property: "Header color", value: "surfaceContainerHigh" },
 ];
 
 function SpecRow({

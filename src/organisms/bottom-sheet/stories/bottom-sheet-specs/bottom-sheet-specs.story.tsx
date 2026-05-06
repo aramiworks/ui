@@ -7,10 +7,10 @@ const specs = [
   { property: "Drag handle height", value: "4 dp" },
   { property: "Max height", value: "90%" },
   { property: "Scrim opacity", value: "0.32" },
-  { property: "Container color", value: "md.sys.color.surface-container-low" },
+  { property: "Container color", value: "surfaceContainerLow" },
   {
     property: "Drag handle color",
-    value: "md.sys.color.on-surface-variant (0.4)",
+    value: "onSurfaceVariant (0.4)",
   },
 ];
 

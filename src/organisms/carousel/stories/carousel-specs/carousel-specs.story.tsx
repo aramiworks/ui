@@ -5,8 +5,8 @@ const specs = [
   { property: "Item gap", value: "8 dp" },
   { property: "Dot size", value: "8 dp" },
   { property: "Dot gap", value: "8 dp" },
-  { property: "Active dot color", value: "md.sys.color.primary" },
-  { property: "Inactive dot color", value: "md.sys.color.outline-variant" },
+  { property: "Active dot color", value: "primary" },
+  { property: "Inactive dot color", value: "outlineVariant" },
   { property: "Item border radius", value: "12 dp" },
 ];
 

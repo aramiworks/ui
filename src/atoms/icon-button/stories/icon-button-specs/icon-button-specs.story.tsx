@@ -7,10 +7,10 @@ const specs = [
   { property: "Touch target", value: "48 x 48 dp" },
   { property: "Corner radius", value: "20 dp (full)" },
   { property: "Container (standard)", value: "transparent" },
-  { property: "Container (filled)", value: "md.sys.color.primary" },
+  { property: "Container (filled)", value: "primary" },
   {
     property: "Container (filledTonal)",
-    value: "md.sys.color.secondary-container",
+    value: "secondaryContainer",
   },
   { property: "Container (outlined)", value: "transparent + 1dp outline" },
 ];

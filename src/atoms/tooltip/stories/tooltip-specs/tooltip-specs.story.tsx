@@ -8,8 +8,8 @@ const specs = [
   { property: "Corner radius", value: "4 dp" },
   { property: "Font (plain)", value: "Body Small (12sp)" },
   { property: "Font (rich title)", value: "Title Small (14sp, Medium)" },
-  { property: "Container color", value: "md.sys.color.inverse-surface" },
-  { property: "Label color", value: "md.sys.color.inverse-on-surface" },
+  { property: "Container color", value: "inverseSurface" },
+  { property: "Label color", value: "inverseOnSurface" },
 ];
 
 function SpecRow({

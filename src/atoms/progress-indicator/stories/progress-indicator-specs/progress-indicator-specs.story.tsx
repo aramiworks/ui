@@ -6,8 +6,8 @@ const specs = [
   { property: "Linear corner radius", value: "2 dp" },
   { property: "Circular size (default)", value: "48 dp" },
   { property: "Circular stroke width", value: "4 dp" },
-  { property: "Active color", value: "md.sys.color.primary" },
-  { property: "Track color", value: "md.sys.color.surface-container-highest" },
+  { property: "Active color", value: "primary" },
+  { property: "Track color", value: "surfaceContainerHighest" },
 ];
 
 function SpecRow({

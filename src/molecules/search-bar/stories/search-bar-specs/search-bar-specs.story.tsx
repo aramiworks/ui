@@ -7,8 +7,8 @@ const specs = [
   { property: "Padding horizontal", value: "16 dp" },
   { property: "Icon size", value: "24 dp" },
   { property: "Font", value: "Body Large (16sp)" },
-  { property: "Container color", value: "md.sys.color.surface-container-high" },
-  { property: "Placeholder color", value: "md.sys.color.on-surface-variant" },
+  { property: "Container color", value: "surfaceContainerHigh" },
+  { property: "Placeholder color", value: "onSurfaceVariant" },
 ];
 
 function SpecRow({

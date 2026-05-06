@@ -4,7 +4,7 @@ import { XStack, YStack, Text } from "tamagui";
 const specs = [
   { property: "Search bar height", value: "56 dp" },
   { property: "Suggestion item height", value: "56 dp" },
-  { property: "Background", value: "md.sys.color.surface" },
+  { property: "Background", value: "surface" },
   { property: "Leading icon size", value: "24 dp" },
   { property: "Horizontal padding", value: "16 dp" },
   { property: "Item gap", value: "16 dp" },

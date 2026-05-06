@@ -6,13 +6,13 @@ const specs = [
   { property: "Corner radius", value: "2 dp" },
   { property: "Border width", value: "2 dp" },
   { property: "Touch target", value: "48 x 48 dp" },
-  { property: "Container color (checked)", value: "md.sys.color.primary" },
-  { property: "Checkmark color", value: "md.sys.color.on-primary" },
+  { property: "Container color (checked)", value: "primary" },
+  { property: "Checkmark color", value: "onPrimary" },
   {
     property: "Border color (unchecked)",
-    value: "md.sys.color.on-surface-variant",
+    value: "onSurfaceVariant",
   },
-  { property: "Error color", value: "md.sys.color.error" },
+  { property: "Error color", value: "error" },
 ];
 
 function SpecRow({

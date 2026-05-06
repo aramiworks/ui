@@ -6,12 +6,12 @@ const specs = [
   { property: "Thumb size", value: "20 x 20 dp" },
   { property: "Touch target", value: "48 x 48 dp" },
   { property: "Tick mark size", value: "4 x 4 dp" },
-  { property: "Active track color", value: "md.sys.color.primary" },
+  { property: "Active track color", value: "primary" },
   {
     property: "Inactive track color",
-    value: "md.sys.color.surface-container-highest",
+    value: "surfaceContainerHighest",
   },
-  { property: "Thumb color", value: "md.sys.color.primary" },
+  { property: "Thumb color", value: "primary" },
 ];
 
 function SpecRow({
