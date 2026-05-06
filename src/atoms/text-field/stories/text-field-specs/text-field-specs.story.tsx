@@ -11,11 +11,11 @@ const specs = [
   { property: "Helper text font", value: "Body Small (12sp)" },
   {
     property: "Container (filled)",
-    value: "md.sys.color.surface-container-highest",
+    value: "surfaceContainerHighest",
   },
   { property: "Indicator (filled)", value: "1 dp bottom border" },
   { property: "Outline (outlined)", value: "1 dp border all sides" },
-  { property: "Error color", value: "md.sys.color.error" },
+  { property: "Error color", value: "error" },
 ];
 
 function SpecRow({

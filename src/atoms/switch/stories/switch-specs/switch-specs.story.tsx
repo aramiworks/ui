@@ -9,11 +9,11 @@ const specs = [
   { property: "Touch target", value: "48 dp height" },
   {
     property: "Track color (off)",
-    value: "md.sys.color.surface-container-highest",
+    value: "surfaceContainerHighest",
   },
-  { property: "Track color (on)", value: "md.sys.color.primary" },
-  { property: "Thumb color (off)", value: "md.sys.color.outline" },
-  { property: "Thumb color (on)", value: "md.sys.color.on-primary" },
+  { property: "Track color (on)", value: "primary" },
+  { property: "Thumb color (off)", value: "outline" },
+  { property: "Thumb color (on)", value: "onPrimary" },
 ];
 
 function SpecRow({

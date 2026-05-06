@@ -6,7 +6,7 @@ const specs = [
   { property: "Label-field gap", value: "4 dp" },
   { property: "Required indicator", value: "Asterisk (*)" },
   { property: "Helper text font", value: "Body Small (12sp)" },
-  { property: "Error text color", value: "md.sys.color.error" },
+  { property: "Error text color", value: "error" },
   { property: "Character count font", value: "Body Small (12sp)" },
 ];
 

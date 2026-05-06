@@ -7,7 +7,7 @@ const specs = [
   { property: "Corner radius", value: "28 dp" },
   { property: "Padding", value: "24 dp" },
   { property: "Elevation", value: "Level 3" },
-  { property: "Container color", value: "md.sys.color.surface-container-high" },
+  { property: "Container color", value: "surfaceContainerHigh" },
   { property: "Icon size", value: "24 dp" },
   { property: "Title style", value: "Headline Small (24 sp)" },
   { property: "Body style", value: "Body Medium (14 sp)" },

@@ -3,7 +3,7 @@ import { XStack, YStack, Text } from "tamagui";
 
 const specs = [
   { property: "Thickness", value: "1 dp" },
-  { property: "Color", value: "md.sys.color.outline-variant" },
+  { property: "Color", value: "outlineVariant" },
   { property: "Inset margin", value: "16 dp" },
   { property: "Orientation", value: "horizontal | vertical" },
 ];

@@ -6,8 +6,8 @@ const specs = [
   { property: "Large size", value: "16 x 16 dp" },
   { property: "Corner radius", value: "50% (circle)" },
   { property: "Font", value: "Label Small (11sp)" },
-  { property: "Container color", value: "md.sys.color.error" },
-  { property: "Label color", value: "md.sys.color.on-error" },
+  { property: "Container color", value: "error" },
+  { property: "Label color", value: "onError" },
   { property: "Offset X", value: "-4 dp from anchor edge" },
   { property: "Offset Y", value: "2 dp above anchor edge" },
 ];

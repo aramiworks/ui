@@ -9,11 +9,11 @@ const specs = [
   { property: "Min tab width (scrollable)", value: "90 dp" },
   { property: "Icon size", value: "24 dp" },
   { property: "Font", value: "Label Medium" },
-  { property: "Active color (primary)", value: "md.sys.color.primary" },
-  { property: "Inactive color", value: "md.sys.color.on-surface-variant" },
+  { property: "Active color (primary)", value: "primary" },
+  { property: "Inactive color", value: "onSurfaceVariant" },
   {
     property: "Secondary active bg",
-    value: "md.sys.color.secondary-container",
+    value: "secondaryContainer",
   },
 ];
 
