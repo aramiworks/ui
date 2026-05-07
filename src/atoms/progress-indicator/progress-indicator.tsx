@@ -57,7 +57,7 @@ function LinearProgress({
       }}
     >
       <LinearIndicator width={`${widthPercent}%`} />
-      <LinearStopIndicator />
+      {mode === "determinate" && <LinearStopIndicator />}
     </LinearTrack>
   );
 }
