@@ -5,9 +5,10 @@ const LinearTrack = styled(View, {
   name: "ProgressIndicatorLinearTrack",
   height: 4,
   width: "100%",
-  backgroundColor: "$surfaceContainerHighest",
+  backgroundColor: "$primaryContainer",
   borderRadius: 2,
-  overflow: "hidden",
+  flexDirection: "row",
+  alignItems: "center",
 } as const);
 
 const LinearIndicator = styled(View, {
@@ -15,6 +16,16 @@ const LinearIndicator = styled(View, {
   height: 4,
   backgroundColor: "$primary",
   borderRadius: 2,
+} as const);
+
+const LinearStopIndicator = styled(View, {
+  name: "ProgressIndicatorLinearStopIndicator",
+  position: "absolute",
+  right: 0,
+  width: 4,
+  height: 4,
+  borderRadius: 2,
+  backgroundColor: "$primary",
 } as const);
 
 type LinearProgressProps = Required<
@@ -46,13 +57,14 @@ function LinearProgress({
       }}
     >
       <LinearIndicator width={`${widthPercent}%`} />
+      <LinearStopIndicator />
     </LinearTrack>
   );
 }
 
 const CircularTrack = styled(View, {
   name: "ProgressIndicatorCircularTrack",
-  borderColor: "$surfaceContainerHighest",
+  borderColor: "$primaryContainer",
   borderWidth: 4,
 } as const);
 
