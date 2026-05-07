@@ -5,14 +5,14 @@ import { ListItem } from "../../list-item";
 import type { ListItemProps } from "../../list-item.type";
 
 const FIGMA_BASE =
-  "https://www.figma.com/design/C0eafJVCn9JsDxhxw0NjFw/molecules?node-id=";
+  "https://www.figma.com/design/b79qv459pnXaypgNQfNXuc/ui?node-id=";
 
 const meta: Meta<ListItemProps> = {
   title: "molecules/list-item/variants",
   component: ListItem,
   args: { headline: "List item headline" },
   parameters: {
-    design: { type: "figma", url: `${FIGMA_BASE}3-11` },
+    design: { type: "figma", url: `${FIGMA_BASE}1434-23` },
   },
 };
 
