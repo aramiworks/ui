@@ -69,8 +69,8 @@ export function IconButton({
       variant={variant as any}
       accessibilityRole="button"
       accessibilityLabel={accessibilityLabel}
-      hitSlop={4}
       {...props}
+      hitSlop={4}
     >
       <MaterialIcons name={icon as any} size={iconSize} color={resolvedColor} />
     </StyledIconButton>
