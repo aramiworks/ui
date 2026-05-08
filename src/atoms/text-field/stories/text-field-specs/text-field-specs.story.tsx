@@ -1,14 +1,18 @@
 import type { Meta, StoryObj } from "@storybook/react-vite";
 import { XStack, YStack, Text } from "tamagui";
+import { fontSize } from "../../../../tokens/generated/typography";
 
 const specs = [
   { property: "Height", value: "56 dp" },
   { property: "Corner radius (filled)", value: "4 dp top" },
   { property: "Corner radius (outlined)", value: "4 dp all" },
   { property: "Padding horizontal", value: "16 dp" },
-  { property: "Label font", value: "Body Small (12sp)" },
-  { property: "Input font", value: "Body Large (16sp)" },
-  { property: "Helper text font", value: "Body Small (12sp)" },
+  { property: "Label font", value: `Body Small (${fontSize.bodySmall}sp)` },
+  { property: "Input font", value: `Body Large (${fontSize.bodyLarge}sp)` },
+  {
+    property: "Helper text font",
+    value: `Body Small (${fontSize.bodySmall}sp)`,
+  },
   {
     property: "Container (filled)",
     value: "surfaceContainerHighest",
