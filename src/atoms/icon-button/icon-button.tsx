@@ -4,8 +4,8 @@ import type { IconButtonProps } from "./icon-button.type";
 
 const StyledIconButton = styled(TamaguiButton, {
   name: "IconButton",
-  width: 48,
-  height: 48,
+  width: 40,
+  height: 40,
   borderRadius: "$full",
   padding: 0,
   justifyContent: "center",
@@ -70,6 +70,7 @@ export function IconButton({
       accessibilityRole="button"
       accessibilityLabel={accessibilityLabel}
       {...props}
+      hitSlop={4}
     >
       <MaterialIcons name={icon as any} size={iconSize} color={resolvedColor} />
     </StyledIconButton>
