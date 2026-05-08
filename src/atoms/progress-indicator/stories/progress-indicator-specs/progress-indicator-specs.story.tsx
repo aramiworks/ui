@@ -7,7 +7,8 @@ const specs = [
   { property: "Circular size (default)", value: "48 dp" },
   { property: "Circular stroke width", value: "4 dp" },
   { property: "Active color", value: "primary" },
-  { property: "Track color", value: "surfaceContainerHighest" },
+  { property: "Track color", value: "primaryContainer" },
+  { property: "Stop indicator (linear)", value: "4 dp circle at track end" },
 ];
 
 function SpecRow({
