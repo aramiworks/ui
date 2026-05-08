@@ -3,7 +3,7 @@ import { FormField } from "../../form-field";
 import type { FormFieldProps } from "../../form-field.type";
 
 const FIGMA_BASE =
-  "https://www.figma.com/design/C0eafJVCn9JsDxhxw0NjFw/molecules?node-id=";
+  "https://www.figma.com/design/b79qv459pnXaypgNQfNXuc/ui?node-id=";
 
 const meta: Meta<FormFieldProps> = {
   title: "molecules/form-field/variants",
@@ -14,7 +14,7 @@ const meta: Meta<FormFieldProps> = {
     value: "user@example.com",
   },
   parameters: {
-    design: { type: "figma", url: `${FIGMA_BASE}2-11` },
+    design: { type: "figma", url: `${FIGMA_BASE}1452-2` },
   },
 };
 
