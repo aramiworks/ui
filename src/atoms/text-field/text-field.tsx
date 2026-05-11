@@ -3,6 +3,7 @@ import { TextInput, Pressable } from "react-native";
 import { styled, View, Text, useTheme } from "tamagui";
 import MaterialIcons from "@expo/vector-icons/MaterialIcons";
 import { DISABLED_OPACITY } from "../../tokens/custom/interaction";
+import { fontSize, lineHeight } from "../../tokens/generated/typography";
 import type { TextFieldProps } from "./text-field.type";
 
 const FilledContainer = styled(View, {
@@ -67,13 +68,13 @@ const LabelText = styled(Text, {
     isFloating: {
       true: {
         top: "$sm",
-        fontSize: 12,
-        lineHeight: 16,
+        fontSize: fontSize.bodySmall,
+        lineHeight: lineHeight.bodySmall,
       },
       false: {
         top: "$lg",
-        fontSize: 16,
-        lineHeight: 24,
+        fontSize: fontSize.bodyLarge,
+        lineHeight: lineHeight.bodyLarge,
       },
     },
   } as const,
@@ -81,16 +82,16 @@ const LabelText = styled(Text, {
 
 const HelperText = styled(Text, {
   name: "TextFieldHelperText",
-  fontSize: 12,
-  lineHeight: 16,
+  fontSize: fontSize.bodySmall,
+  lineHeight: lineHeight.bodySmall,
   paddingHorizontal: "$lg",
   paddingTop: "$xs",
 } as const);
 
 const CounterText = styled(Text, {
   name: "TextFieldCounterText",
-  fontSize: 12,
-  lineHeight: 16,
+  fontSize: fontSize.bodySmall,
+  lineHeight: lineHeight.bodySmall,
   paddingTop: "$xs",
   paddingRight: "$lg",
   color: "$onSurfaceVariant",
@@ -193,8 +194,8 @@ export function TextField({
       accessibilityState={disabled ? { disabled: true } : undefined}
       style={{
         flex: 1,
-        fontSize: 16,
-        lineHeight: 24,
+        fontSize: fontSize.bodyLarge,
+        lineHeight: lineHeight.bodyLarge,
         color: inputColor,
         paddingTop: label && isFloating ? 20 : 0,
         paddingBottom: 0,
