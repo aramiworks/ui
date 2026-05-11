@@ -4,6 +4,7 @@ import MaterialIcons from "@expo/vector-icons/MaterialIcons";
 import { DISABLED_OPACITY } from "../../tokens/custom/interaction";
 import { spacing } from "../../tokens/generated/spacing";
 import { radii } from "../../tokens/generated/radii";
+import { fontSize, lineHeight } from "../../tokens/generated/typography";
 import type { SegmentedButtonProps } from "./segmented-button.type";
 
 const StyledGroup = styled(View, {
@@ -24,9 +25,9 @@ const StyledDivider = styled(View, {
 
 const SegmentLabel = styled(Text, {
   name: "SegmentLabel",
-  fontSize: 14,
+  fontSize: fontSize.labelLarge,
   fontWeight: "500",
-  lineHeight: 20,
+  lineHeight: lineHeight.labelLarge,
 } as const);
 
 export function SegmentedButton({
