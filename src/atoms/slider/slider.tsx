@@ -2,6 +2,7 @@ import { useCallback, useMemo, useRef, useState } from "react";
 import { PanResponder, type LayoutChangeEvent } from "react-native";
 import { styled, View, Text, useTheme } from "tamagui";
 import { DISABLED_OPACITY } from "../../tokens/custom/interaction";
+import { fontSize } from "../../tokens/generated/typography";
 import type { SliderProps } from "./slider.type";
 
 const SliderContainer = styled(View, {
@@ -57,7 +58,7 @@ const ValueLabel = styled(View, {
 
 const ValueLabelText = styled(Text, {
   name: "SliderValueLabelText",
-  fontSize: 12,
+  fontSize: fontSize.labelSmall,
   fontWeight: "500",
 } as const);
 
