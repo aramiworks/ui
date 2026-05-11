@@ -10,18 +10,21 @@ const Track = styled(View, {
   height: 32,
   borderRadius: "$full",
   justifyContent: "center",
-  paddingHorizontal: 2,
 
   variants: {
     selected: {
       true: {
         backgroundColor: "$primary",
         borderWidth: 0,
+        // No border: pad 4dp directly so thumb sits 4dp from track edge.
+        paddingHorizontal: 4,
       },
       false: {
         backgroundColor: "$surfaceContainerHighest",
         borderWidth: 2,
         borderColor: "$outline",
+        // 2dp border + 2dp pad = 4dp from outer track edge.
+        paddingHorizontal: 2,
       },
     },
   } as const,
