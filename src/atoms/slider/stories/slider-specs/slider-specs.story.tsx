@@ -9,7 +9,7 @@ const specs = [
   { property: "Active track color", value: "primary" },
   {
     property: "Inactive track color",
-    value: "surfaceContainerHighest",
+    value: "primaryContainer",
   },
   { property: "Thumb color", value: "primary" },
 ];
