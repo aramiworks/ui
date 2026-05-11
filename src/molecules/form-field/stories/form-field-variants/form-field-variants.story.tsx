@@ -14,7 +14,7 @@ const meta: Meta<FormFieldProps> = {
     value: "user@example.com",
   },
   parameters: {
-    design: { type: "figma", url: `${FIGMA_BASE}1452-2` },
+    design: { type: "figma", url: `${FIGMA_BASE}1481-5` },
   },
 };
 
