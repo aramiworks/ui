@@ -3,13 +3,13 @@ import { SearchBar } from "../../search-bar";
 import type { SearchBarProps } from "../../search-bar.type";
 
 const FIGMA_BASE =
-  "https://www.figma.com/design/C0eafJVCn9JsDxhxw0NjFw/molecules?node-id=";
+  "https://www.figma.com/design/b79qv459pnXaypgNQfNXuc/ui?node-id=";
 
 const meta: Meta<SearchBarProps> = {
   title: "molecules/search-bar/variants",
   component: SearchBar,
   parameters: {
-    design: { type: "figma", url: `${FIGMA_BASE}5-11` },
+    design: { type: "figma", url: `${FIGMA_BASE}1530-8` },
   },
 };
 
