@@ -11,7 +11,7 @@ const meta: Meta<CheckboxProps> = {
   parameters: {
     design: {
       type: "figma",
-      url: `${FIGMA_BASE}64-2`,
+      url: `${FIGMA_BASE}1656-24`,
     },
   },
 };
