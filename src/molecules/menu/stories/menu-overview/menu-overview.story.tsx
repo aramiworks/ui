@@ -56,7 +56,7 @@ const meta: Meta = {
   parameters: {
     design: {
       type: "figma",
-      url: "https://www.figma.com/design/C0eafJVCn9JsDxhxw0NjFw/molecules?node-id=4-7",
+      url: "https://www.figma.com/design/b79qv459pnXaypgNQfNXuc/ui?node-id=1627-32",
     },
   },
 };
