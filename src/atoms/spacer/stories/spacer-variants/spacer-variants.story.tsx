@@ -11,7 +11,7 @@ const meta: Meta<SpacerProps> = {
   parameters: {
     design: {
       type: "figma",
-      url: `${FIGMA_BASE}52-5`,
+      url: `${FIGMA_BASE}1637-9`,
     },
   },
 };

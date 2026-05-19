@@ -17,7 +17,7 @@ const meta: Meta<typeof Spacer> = {
   parameters: {
     design: {
       type: "figma",
-      url: "https://www.figma.com/design/b79qv459pnXaypgNQfNXuc/atoms?node-id=52-5",
+      url: "https://www.figma.com/design/b79qv459pnXaypgNQfNXuc/atoms?node-id=642-4",
     },
   },
 };
