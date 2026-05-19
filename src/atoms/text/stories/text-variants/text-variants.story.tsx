@@ -14,7 +14,7 @@ const meta: Meta<TextProps> = {
   parameters: {
     design: {
       type: "figma",
-      url: `${FIGMA_BASE}52-4`,
+      url: `${FIGMA_BASE}1603-9`,
     },
   },
 };
