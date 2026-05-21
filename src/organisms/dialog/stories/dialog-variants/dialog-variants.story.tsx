@@ -3,14 +3,14 @@ import { Text } from "tamagui";
 import { Dialog } from "../../dialog";
 import type { DialogProps } from "../../dialog.type";
 
-const FIGMA_BASE =
-  "https://www.figma.com/design/9wluFWH1CfEuAf0KjDEUFt/organisms?node-id=";
+const FIGMA_URL =
+  "https://www.figma.com/design/b79qv459pnXaypgNQfNXuc/ui?node-id=1709-13";
 
 const meta: Meta<DialogProps> = {
   title: "organisms/dialog/variants",
   component: Dialog,
   parameters: {
-    design: { type: "figma", url: `${FIGMA_BASE}5-11` },
+    design: { type: "figma", url: FIGMA_URL },
   },
   args: {
     visible: true,
