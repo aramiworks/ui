@@ -2,14 +2,14 @@ import type { Meta, StoryObj } from "@storybook/react-vite";
 import { DatePicker } from "../../date-picker";
 import type { DatePickerProps } from "../../date-picker.type";
 
-const FIGMA_BASE =
-  "https://www.figma.com/design/9wluFWH1CfEuAf0KjDEUFt/organisms?node-id=";
+const FIGMA_URL =
+  "https://www.figma.com/design/b79qv459pnXaypgNQfNXuc/ui?node-id=1702-113";
 
 const meta: Meta<DatePickerProps> = {
   title: "organisms/date-picker/variants",
   component: DatePicker,
   parameters: {
-    design: { type: "figma", url: `${FIGMA_BASE}4-11` },
+    design: { type: "figma", url: FIGMA_URL },
   },
   args: {
     visible: true,
