@@ -2,14 +2,14 @@ import type { Meta, StoryObj } from "@storybook/react-vite";
 import { Snackbar } from "../../snackbar";
 import type { SnackbarProps } from "../../snackbar.type";
 
-const FIGMA_BASE =
-  "https://www.figma.com/design/9wluFWH1CfEuAf0KjDEUFt/organisms?node-id=";
+const FIGMA_URL =
+  "https://www.figma.com/design/b79qv459pnXaypgNQfNXuc/ui?node-id=1785-8";
 
 const meta: Meta<SnackbarProps> = {
   title: "organisms/snackbar/variants",
   component: Snackbar,
   parameters: {
-    design: { type: "figma", url: `${FIGMA_BASE}11-11` },
+    design: { type: "figma", url: FIGMA_URL },
   },
   args: {
     visible: true,
