@@ -65,6 +65,8 @@ deeperSortSetup([
   ],
   "organisms",
   [
+    "app-version-footer",
+    SUB_ORDER,
     "bottom-sheet",
     SUB_ORDER,
     "carousel",
