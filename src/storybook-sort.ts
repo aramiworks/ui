@@ -71,6 +71,8 @@ deeperSortSetup([
     SUB_ORDER,
     "date-picker",
     SUB_ORDER,
+    "destructive-action-button",
+    SUB_ORDER,
     "dialog",
     SUB_ORDER,
     "navigation-bar",
