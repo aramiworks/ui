@@ -20,6 +20,11 @@ export { Dialog } from "./dialog";
 export type { DialogProps } from "./dialog";
 export { FullScreenDialog } from "./full-screen-dialog";
 export type { FullScreenDialogProps } from "./full-screen-dialog";
+export { KeyValueListCard } from "./key-value-list-card";
+export type {
+  KeyValueListCardProps,
+  KeyValueItem,
+} from "./key-value-list-card";
 export { Search } from "./search";
 export type { SearchProps, SearchSuggestion } from "./search";
 export { NavigationBar } from "./navigation-bar";
