@@ -12,6 +12,8 @@ export { SideSheet } from "./side-sheet";
 export type { SideSheetProps, SideSheetVariant } from "./side-sheet";
 export { Carousel } from "./carousel";
 export type { CarouselProps, CarouselItem, CarouselVariant } from "./carousel";
+export { DestructiveActionButton } from "./destructive-action-button";
+export type { DestructiveActionButtonProps } from "./destructive-action-button";
 export { DatePicker } from "./date-picker";
 export type {
   DatePickerProps,
