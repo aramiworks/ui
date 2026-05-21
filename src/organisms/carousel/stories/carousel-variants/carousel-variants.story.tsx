@@ -18,14 +18,14 @@ const sampleItems = [
   },
 ];
 
-const FIGMA_BASE =
-  "https://www.figma.com/design/9wluFWH1CfEuAf0KjDEUFt/organisms?node-id=";
+const FIGMA_URL =
+  "https://www.figma.com/design/b79qv459pnXaypgNQfNXuc/ui?node-id=1675-13";
 
 const meta: Meta<CarouselProps> = {
   title: "organisms/carousel/variants",
   component: Carousel,
   parameters: {
-    design: { type: "figma", url: `${FIGMA_BASE}3-11` },
+    design: { type: "figma", url: FIGMA_URL },
   },
   args: {
     items: sampleItems,
