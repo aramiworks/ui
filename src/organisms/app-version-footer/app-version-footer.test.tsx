@@ -19,9 +19,7 @@ describe("AppVersionFooter", () => {
 
   it("calls onCopy when pressed", () => {
     const onCopy = jest.fn();
-    render(
-      <AppVersionFooter version="1.0.0" onCopy={onCopy} testID="avf" />,
-    );
+    render(<AppVersionFooter version="1.0.0" onCopy={onCopy} testID="avf" />);
     fireEvent.press(screen.getByTestId("avf-pressable"));
     expect(onCopy).toHaveBeenCalledTimes(1);
   });
