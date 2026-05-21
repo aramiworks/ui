@@ -80,4 +80,16 @@ describe("KeyValueListCard", () => {
     expect(screen.getByTestId("kvlc-title")).toBeTruthy();
     expect(screen.getByTestId("kvlc-skeleton-0")).toBeTruthy();
   });
+
+  it("renders title without testID", () => {
+    const { toJSON } = render(
+      <KeyValueListCard items={ITEMS} title="Details" />,
+    );
+    expect(toJSON()).toBeTruthy();
+  });
+
+  it("renders loading state without testID", () => {
+    const { toJSON } = render(<KeyValueListCard items={[]} loading />);
+    expect(toJSON()).toBeTruthy();
+  });
 });
