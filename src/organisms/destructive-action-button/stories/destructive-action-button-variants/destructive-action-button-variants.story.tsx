@@ -23,7 +23,8 @@ export const WithConfirmation: Story = {
   args: {
     label: "Delete Account",
     confirmTitle: "Delete your account?",
-    confirmBody: "This action cannot be undone. All your data will be permanently removed.",
+    confirmBody:
+      "This action cannot be undone. All your data will be permanently removed.",
   },
 };
 
