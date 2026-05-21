@@ -41,7 +41,11 @@ export const Loading: Story = {
 export const WithTrailing: Story = {
   args: {
     items: [
-      { label: "Status", value: "Available", trailing: <Text color="$primary">●</Text> },
+      {
+        label: "Status",
+        value: "Available",
+        trailing: <Text color="$primary">●</Text>,
+      },
       { label: "Store", value: "Seoul Maison" },
       { label: "Updated", value: "2 min ago" },
     ],

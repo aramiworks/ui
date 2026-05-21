@@ -26,9 +26,7 @@ describe("KeyValueListCard", () => {
   });
 
   it("renders title when provided", () => {
-    render(
-      <KeyValueListCard items={ITEMS} title="Details" testID="kvlc" />,
-    );
+    render(<KeyValueListCard items={ITEMS} title="Details" testID="kvlc" />);
     expect(screen.getByTestId("kvlc-title")).toBeTruthy();
     expect(screen.getByText("Details")).toBeTruthy();
   });
@@ -52,9 +50,7 @@ describe("KeyValueListCard", () => {
   });
 
   it("renders ReactNode values", () => {
-    const items = [
-      { label: "Status", value: <Text>Active</Text> },
-    ];
+    const items = [{ label: "Status", value: <Text>Active</Text> }];
     render(<KeyValueListCard items={items} testID="kvlc" />);
     expect(screen.getByText("Active")).toBeTruthy();
   });
