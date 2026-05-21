@@ -11,7 +11,7 @@ const meta: Meta<ProgressIndicatorProps> = {
   parameters: {
     design: {
       type: "figma",
-      url: `${FIGMA_BASE}68-2`,
+      url: `${FIGMA_BASE}1752-77`,
     },
   },
 };
