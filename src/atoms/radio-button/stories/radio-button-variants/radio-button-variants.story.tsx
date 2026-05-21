@@ -11,7 +11,7 @@ const meta: Meta<RadioButtonProps> = {
   parameters: {
     design: {
       type: "figma",
-      url: `${FIGMA_BASE}65-2`,
+      url: `${FIGMA_BASE}1687-38`,
     },
   },
 };
