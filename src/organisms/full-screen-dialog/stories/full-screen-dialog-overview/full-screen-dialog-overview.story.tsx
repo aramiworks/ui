@@ -40,6 +40,9 @@ function Overview() {
   );
 }
 
+const FIGMA_URL =
+  "https://www.figma.com/design/b79qv459pnXaypgNQfNXuc/ui?node-id=1838-12";
+
 const meta: Meta = {
   title: "organisms/full-screen-dialog/overview",
   component: Overview,
@@ -47,7 +50,7 @@ const meta: Meta = {
   parameters: {
     design: {
       type: "figma",
-      url: "https://www.figma.com/design/9wluFWH1CfEuAf0KjDEUFt/organisms?node-id=4-5",
+      url: FIGMA_URL,
     },
   },
 };
