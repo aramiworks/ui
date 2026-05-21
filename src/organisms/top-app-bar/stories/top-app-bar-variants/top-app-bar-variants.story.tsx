@@ -4,14 +4,14 @@ import { XStack, Text } from "tamagui";
 import { TopAppBar } from "../../top-app-bar";
 import type { TopAppBarProps } from "../../top-app-bar.type";
 
-const FIGMA_BASE =
-  "https://www.figma.com/design/9wluFWH1CfEuAf0KjDEUFt/organisms?node-id=";
+const FIGMA_URL =
+  "https://www.figma.com/design/b79qv459pnXaypgNQfNXuc/ui?node-id=1833-13";
 
 const meta: Meta<TopAppBarProps> = {
   title: "organisms/top-app-bar/variants",
   component: TopAppBar,
   parameters: {
-    design: { type: "figma", url: `${FIGMA_BASE}14-11` },
+    design: { type: "figma", url: FIGMA_URL },
   },
   args: {
     title: "Title",
