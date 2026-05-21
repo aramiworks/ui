@@ -45,4 +45,11 @@ describe("AppVersionFooter", () => {
     render(<AppVersionFooter version="1.0.0" build={0} testID="avf" />);
     expect(screen.getByText("v1.0.0 (0)")).toBeTruthy();
   });
+
+  it("renders pressable without testID when onCopy provided", () => {
+    const onCopy = jest.fn();
+    render(<AppVersionFooter version="1.0.0" onCopy={onCopy} />);
+    fireEvent.press(screen.getByRole("button"));
+    expect(onCopy).toHaveBeenCalledTimes(1);
+  });
 });
