@@ -1,3 +1,5 @@
+export { AppVersionFooter } from "./app-version-footer";
+export type { AppVersionFooterProps } from "./app-version-footer";
 export { BottomAppBar } from "./bottom-app-bar";
 export type {
   BottomAppBarProps,
