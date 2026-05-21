@@ -73,6 +73,8 @@ deeperSortSetup([
     SUB_ORDER,
     "dialog",
     SUB_ORDER,
+    "key-value-list-card",
+    SUB_ORDER,
     "navigation-bar",
     SUB_ORDER,
     "navigation-drawer",
