@@ -56,6 +56,17 @@ describe("EligibilityBadge", () => {
     expect(toJSON()).toBeTruthy();
   });
 
+  it("renders icon without testID", () => {
+    const { toJSON } = render(
+      <EligibilityBadge
+        status="eligible"
+        icon={<Text testID="icon-inner">✓</Text>}
+      />,
+    );
+    expect(toJSON()).toBeTruthy();
+    expect(screen.getByTestId("icon-inner")).toBeTruthy();
+  });
+
   it("has accessibility role text", () => {
     render(<EligibilityBadge status="eligible" testID="eb" />);
     const element = screen.getByTestId("eb");
