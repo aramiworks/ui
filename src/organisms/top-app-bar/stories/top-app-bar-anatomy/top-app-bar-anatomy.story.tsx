@@ -138,7 +138,7 @@ const meta: Meta = {
   parameters: {
     design: {
       type: "figma",
-      url: "https://www.figma.com/design/9wluFWH1CfEuAf0KjDEUFt/organisms?node-id=14-15",
+      url: "https://www.figma.com/design/b79qv459pnXaypgNQfNXuc/ui?node-id=1809-14",
     },
   },
 };
