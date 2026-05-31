@@ -8,7 +8,7 @@ import { TextField } from "../../../../atoms/text-field";
 import type { FullScreenDialogProps } from "../../full-screen-dialog.type";
 
 const FIGMA_BASE =
-  "https://www.figma.com/design/9wluFWH1CfEuAf0KjDEUFt/organisms?node-id=";
+  "https://www.figma.com/design/b79qv459pnXaypgNQfNXuc/ui?node-id=";
 
 function WithFormContent(props: FullScreenDialogProps) {
   const [visible, setVisible] = useState(false);
@@ -62,7 +62,7 @@ function WithLongContent(props: FullScreenDialogProps) {
 const meta: Meta<FullScreenDialogProps> = {
   title: "organisms/full-screen-dialog/variants",
   parameters: {
-    design: { type: "figma", url: `${FIGMA_BASE}4-9` },
+    design: { type: "figma", url: `${FIGMA_BASE}1838-12` },
   },
 };
 
