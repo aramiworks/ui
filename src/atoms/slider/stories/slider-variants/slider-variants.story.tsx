@@ -16,7 +16,7 @@ const meta: Meta<SliderProps> = {
   parameters: {
     design: {
       type: "figma",
-      url: `${FIGMA_BASE}67-2`,
+      url: `${FIGMA_BASE}1944-2`,
     },
   },
 };
