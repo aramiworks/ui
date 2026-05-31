@@ -10,7 +10,7 @@ const meta: Meta<CardProps> = {
   title: "atoms/card/variants",
   component: Card,
   parameters: {
-    design: { type: "figma", url: `${FIGMA_BASE}296-31` },
+    design: { type: "figma", url: `${FIGMA_BASE}1748-33` },
   },
   args: {
     children: (
