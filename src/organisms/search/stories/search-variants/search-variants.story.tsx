@@ -54,14 +54,14 @@ function Variants() {
   );
 }
 
-const FIGMA_BASE =
-  "https://www.figma.com/design/9wluFWH1CfEuAf0KjDEUFt/organisms?node-id=";
-
 const meta: Meta = {
   title: "Organisms/Search/Variants",
   component: Variants,
   parameters: {
-    design: { type: "figma", url: `${FIGMA_BASE}9-11` },
+    design: {
+      type: "figma",
+      url: "https://www.figma.com/design/b79qv459pnXaypgNQfNXuc/ui?node-id=1920-42",
+    },
   },
 };
 
