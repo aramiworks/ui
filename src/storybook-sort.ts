@@ -77,6 +77,8 @@ deeperSortSetup([
     SUB_ORDER,
     "dialog",
     SUB_ORDER,
+    "eligibility-badge",
+    SUB_ORDER,
     "key-value-list-card",
     SUB_ORDER,
     "navigation-bar",
