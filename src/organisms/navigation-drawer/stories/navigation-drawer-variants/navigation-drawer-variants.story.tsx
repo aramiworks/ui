@@ -3,13 +3,13 @@ import { NavigationDrawer } from "../../navigation-drawer";
 import type { NavigationDrawerProps } from "../../navigation-drawer.type";
 
 const FIGMA_BASE =
-  "https://www.figma.com/design/9wluFWH1CfEuAf0KjDEUFt/organisms?node-id=";
+  "https://www.figma.com/design/b79qv459pnXaypgNQfNXuc/ui?node-id=";
 
 const meta: Meta<NavigationDrawerProps> = {
   title: "organisms/navigation-drawer/variants",
   component: NavigationDrawer,
   parameters: {
-    design: { type: "figma", url: `${FIGMA_BASE}7-11` },
+    design: { type: "figma", url: `${FIGMA_BASE}2004-31` },
   },
   args: {
     open: true,
