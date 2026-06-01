@@ -3,7 +3,8 @@ import { View, Text } from "tamagui";
 import { DashboardTemplate } from "../../dashboard-template";
 import type { DashboardTemplateProps } from "../../dashboard-template.type";
 
-const FIGMA_BASE = "https://www.figma.com/design/placeholder?node-id=";
+const FIGMA_BASE =
+  "https://www.figma.com/design/b79qv459pnXaypgNQfNXuc/ui?node-id=";
 
 function Card({ label }: { label: string }) {
   return (
