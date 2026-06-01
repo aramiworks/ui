@@ -119,6 +119,12 @@ const meta: Meta = {
   title: "atoms/table/anatomy",
   component: Anatomy,
   tags: ["autodocs", "!dev"],
+  parameters: {
+    design: {
+      type: "figma",
+      url: "https://www.figma.com/design/b79qv459pnXaypgNQfNXuc/atoms?node-id=2056-2",
+    },
+  },
 };
 
 export default meta;
