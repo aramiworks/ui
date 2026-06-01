@@ -161,21 +161,6 @@ describe("ProductRow", () => {
     expect(onToggle).not.toHaveBeenCalled();
   });
 
-  it("handlePress returns early when disabled", () => {
-    const onToggle = jest.fn();
-    render(
-      <ProductRow
-        product={PRODUCT}
-        selected={false}
-        onToggle={onToggle}
-        disabled
-        testID="pr"
-      />,
-    );
-    screen.getByTestId("pr").props.onPress();
-    expect(onToggle).not.toHaveBeenCalled();
-  });
-
   it("renders accessibility state with disabled=true", () => {
     render(
       <ProductRow

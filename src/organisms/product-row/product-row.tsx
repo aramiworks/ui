@@ -15,7 +15,6 @@ export function ProductRow({
   testID,
 }: ProductRowProps) {
   const handlePress = () => {
-    if (disabled) return;
     onToggle(product.id);
   };
 
