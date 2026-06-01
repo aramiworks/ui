@@ -101,6 +101,12 @@ const meta: Meta = {
   title: "atoms/table/variants",
   component: Variants,
   tags: ["autodocs", "!dev"],
+  parameters: {
+    design: {
+      type: "figma",
+      url: "https://www.figma.com/design/b79qv459pnXaypgNQfNXuc/atoms?node-id=2055-2",
+    },
+  },
 };
 
 export default meta;
