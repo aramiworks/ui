@@ -1,6 +1,6 @@
 import { useState } from "react";
 import type { Meta, StoryObj } from "@storybook/react";
-import { YStack, Text, Button, XStack } from "tamagui";
+import { YStack, Text, Button } from "tamagui";
 import { SideSheet } from "../../side-sheet";
 
 function Variants() {
@@ -61,14 +61,14 @@ function Variants() {
   );
 }
 
-const FIGMA_BASE =
-  "https://www.figma.com/design/9wluFWH1CfEuAf0KjDEUFt/organisms?node-id=";
-
 const meta: Meta = {
   title: "Organisms/SideSheet/Variants",
   component: Variants,
   parameters: {
-    design: { type: "figma", url: `${FIGMA_BASE}10-11` },
+    design: {
+      type: "figma",
+      url: "https://www.figma.com/design/b79qv459pnXaypgNQfNXuc/ui?node-id=2010-15",
+    },
   },
 };
 
