@@ -14,6 +14,11 @@ export { Carousel } from "./carousel";
 export type { CarouselProps, CarouselItem, CarouselVariant } from "./carousel";
 export { DestructiveActionButton } from "./destructive-action-button";
 export type { DestructiveActionButtonProps } from "./destructive-action-button";
+export { EligibilityBadge } from "./eligibility-badge";
+export type {
+  EligibilityBadgeProps,
+  EligibilityStatus,
+} from "./eligibility-badge";
 export { DatePicker } from "./date-picker";
 export type {
   DatePickerProps,
