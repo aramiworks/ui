@@ -20,7 +20,7 @@ const meta: Meta<SegmentedButtonProps> = {
   parameters: {
     design: {
       type: "figma",
-      url: `${FIGMA_BASE}69-2`,
+      url: `${FIGMA_BASE}1930-2`,
     },
   },
 };
