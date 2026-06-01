@@ -10,7 +10,7 @@ const meta: Meta<TooltipProps> = {
   title: "atoms/tooltip/variants",
   component: Tooltip,
   parameters: {
-    design: { type: "figma", url: `${FIGMA_BASE}299-20` },
+    design: { type: "figma", url: `${FIGMA_BASE}2071-2` },
   },
   args: {
     children: (
