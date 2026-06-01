@@ -2,16 +2,13 @@ import type { Meta, StoryObj } from "@storybook/react-vite";
 import { Switch } from "../../switch";
 import type { SwitchProps } from "../../switch.type";
 
-const FIGMA_BASE =
-  "https://www.figma.com/design/b79qv459pnXaypgNQfNXuc/atoms?node-id=";
-
 const meta: Meta<SwitchProps> = {
   title: "atoms/switch/variants",
   component: Switch,
   parameters: {
     design: {
       type: "figma",
-      url: `${FIGMA_BASE}66-2`,
+      url: "https://www.figma.com/design/b79qv459pnXaypgNQfNXuc/atoms?node-id=2042-13",
     },
   },
 };
