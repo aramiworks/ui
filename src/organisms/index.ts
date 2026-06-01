@@ -42,6 +42,8 @@ export type {
   RailDestination,
   RailFab,
 } from "./navigation-rail";
+export { PurchaseRow } from "./purchase-row";
+export type { PurchaseRowProps } from "./purchase-row";
 export { NavigationDrawer } from "./navigation-drawer";
 export type {
   NavigationDrawerProps,

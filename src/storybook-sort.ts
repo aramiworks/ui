@@ -83,6 +83,8 @@ deeperSortSetup([
     SUB_ORDER,
     "navigation-drawer",
     SUB_ORDER,
+    "purchase-row",
+    SUB_ORDER,
     "search",
     SUB_ORDER,
     "snackbar",
