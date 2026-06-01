@@ -65,4 +65,17 @@ describe("PurchaseRow", () => {
     const { toJSON } = render(<PurchaseRow date={TEST_DATE} amount={5000} />);
     expect(toJSON()).toBeTruthy();
   });
+
+  it("renders count without testID", () => {
+    render(<PurchaseRow date={TEST_DATE} amount={5000} count={2} />);
+    expect(screen.getByText("2 items")).toBeTruthy();
+  });
+
+  it("calls onPress when pressed without testID", () => {
+    const onPress = jest.fn();
+    const { toJSON } = render(
+      <PurchaseRow date={TEST_DATE} amount={5000} onPress={onPress} />,
+    );
+    expect(toJSON()).toBeTruthy();
+  });
 });
