@@ -100,7 +100,7 @@ const meta: Meta = {
   parameters: {
     design: {
       type: "figma",
-      url: "https://www.figma.com/design/b79qv459pnXaypgNQfNXuc/atoms?node-id=300-2",
+      url: "https://www.figma.com/design/b79qv459pnXaypgNQfNXuc/atoms?node-id=2072-2",
     },
   },
 };

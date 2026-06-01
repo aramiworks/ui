@@ -30,7 +30,7 @@ const meta: Meta = {
   parameters: {
     design: {
       type: "figma",
-      url: "https://www.figma.com/design/b79qv459pnXaypgNQfNXuc/atoms?node-id=299-2",
+      url: "https://www.figma.com/design/b79qv459pnXaypgNQfNXuc/atoms?node-id=2070-4",
     },
   },
 };
