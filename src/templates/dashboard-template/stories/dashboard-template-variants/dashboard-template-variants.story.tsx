@@ -25,7 +25,7 @@ const meta: Meta<DashboardTemplateProps> = {
   title: "templates/dashboard-template/variants",
   component: DashboardTemplate,
   parameters: {
-    design: { type: "figma", url: `${FIGMA_BASE}0-1` },
+    design: { type: "figma", url: `${FIGMA_BASE}2103-15` },
   },
 };
 

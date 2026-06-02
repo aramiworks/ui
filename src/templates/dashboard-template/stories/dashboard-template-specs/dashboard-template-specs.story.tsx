@@ -75,7 +75,7 @@ const meta: Meta = {
   parameters: {
     design: {
       type: "figma",
-      url: "https://www.figma.com/design/b79qv459pnXaypgNQfNXuc/ui?node-id=789-6",
+      url: "https://www.figma.com/design/b79qv459pnXaypgNQfNXuc/ui?node-id=2103-78",
     },
   },
 };
