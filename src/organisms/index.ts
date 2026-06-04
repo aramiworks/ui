@@ -73,3 +73,9 @@ export type {
   TopAppBarType,
   TopAppBarAction,
 } from "./top-app-bar";
+export { WatchlistRow } from "./watchlist-row";
+export type {
+  WatchlistRowProps,
+  WatchlistItem,
+  WatchlistItemState,
+} from "./watchlist-row";
