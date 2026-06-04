@@ -1,5 +1,10 @@
 export { AppVersionFooter } from "./app-version-footer";
 export type { AppVersionFooterProps } from "./app-version-footer";
+export { CatalogGroupHeader } from "./catalog-group-header";
+export type {
+  CatalogGroupHeaderProps,
+  GroupSelectionState,
+} from "./catalog-group-header";
 export { BottomAppBar } from "./bottom-app-bar";
 export type {
   BottomAppBarProps,
@@ -49,6 +54,8 @@ export type {
 } from "./navigation-rail";
 export { ProductRow } from "./product-row";
 export type { ProductRowProps, Product } from "./product-row";
+export { WatchlistGroupHeader } from "./watchlist-group-header";
+export type { WatchlistGroupHeaderProps } from "./watchlist-group-header";
 export { PurchaseRow } from "./purchase-row";
 export type { PurchaseRowProps } from "./purchase-row";
 export { NavigationDrawer } from "./navigation-drawer";
@@ -73,3 +80,9 @@ export type {
   TopAppBarType,
   TopAppBarAction,
 } from "./top-app-bar";
+export { WatchlistRow } from "./watchlist-row";
+export type {
+  WatchlistRowProps,
+  WatchlistItem,
+  WatchlistItemState,
+} from "./watchlist-row";
