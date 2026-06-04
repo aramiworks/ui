@@ -1,5 +1,10 @@
 export { AppVersionFooter } from "./app-version-footer";
 export type { AppVersionFooterProps } from "./app-version-footer";
+export { CatalogGroupHeader } from "./catalog-group-header";
+export type {
+  CatalogGroupHeaderProps,
+  GroupSelectionState,
+} from "./catalog-group-header";
 export { BottomAppBar } from "./bottom-app-bar";
 export type {
   BottomAppBarProps,
