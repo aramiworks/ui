@@ -54,6 +54,8 @@ export type {
 } from "./navigation-rail";
 export { ProductRow } from "./product-row";
 export type { ProductRowProps, Product } from "./product-row";
+export { WatchlistGroupHeader } from "./watchlist-group-header";
+export type { WatchlistGroupHeaderProps } from "./watchlist-group-header";
 export { PurchaseRow } from "./purchase-row";
 export type { PurchaseRowProps } from "./purchase-row";
 export { NavigationDrawer } from "./navigation-drawer";
