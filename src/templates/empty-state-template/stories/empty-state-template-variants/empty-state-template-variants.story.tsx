@@ -10,7 +10,7 @@ const meta: Meta<EmptyStateTemplateProps> = {
   title: "templates/empty-state-template/variants",
   component: EmptyStateTemplate,
   parameters: {
-    design: { type: "figma", url: `${FIGMA_BASE}599-2` },
+    design: { type: "figma", url: `${FIGMA_BASE}2155-11` },
   },
 };
 
