@@ -3,13 +3,14 @@ import { View, Text } from "tamagui";
 import { SettingsTemplate } from "../../settings-template";
 import type { SettingsTemplateProps } from "../../settings-template.type";
 
-const FIGMA_BASE = "https://www.figma.com/design/placeholder?node-id=";
+const FIGMA_BASE =
+  "https://www.figma.com/design/b79qv459pnXaypgNQfNXuc/ui?node-id=";
 
 const meta: Meta<SettingsTemplateProps> = {
   title: "templates/settings-template/variants",
   component: SettingsTemplate,
   parameters: {
-    design: { type: "figma", url: `${FIGMA_BASE}0-1` },
+    design: { type: "figma", url: `${FIGMA_BASE}2174-7` },
   },
 };
 
