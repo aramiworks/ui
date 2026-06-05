@@ -19,27 +19,27 @@ type Story = StoryObj<FabProps>;
 export const Primary: Story = {
   args: { color: "primary" },
   parameters: {
-    design: { type: "figma", url: `${FIGMA_BASE}122-14` },
+    design: { type: "figma", url: `${FIGMA_BASE}1509-7` },
   },
 };
 
 export const Secondary: Story = {
   args: { color: "secondary" },
   parameters: {
-    design: { type: "figma", url: `${FIGMA_BASE}122-27` },
+    design: { type: "figma", url: `${FIGMA_BASE}1509-7` },
   },
 };
 
 export const Tertiary: Story = {
   args: { color: "tertiary" },
   parameters: {
-    design: { type: "figma", url: `${FIGMA_BASE}122-40` },
+    design: { type: "figma", url: `${FIGMA_BASE}1509-7` },
   },
 };
 
 export const Surface: Story = {
   args: { color: "surface" },
   parameters: {
-    design: { type: "figma", url: `${FIGMA_BASE}122-53` },
+    design: { type: "figma", url: `${FIGMA_BASE}1509-7` },
   },
 };
