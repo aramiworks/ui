@@ -66,4 +66,9 @@ describe("ErrorStateCard", () => {
     const { toJSON } = render(<ErrorStateCard message="오류" />);
     expect(toJSON()).toBeTruthy();
   });
+
+  it("renders the retry button without a testID", () => {
+    render(<ErrorStateCard onRetry={() => {}} />);
+    expect(screen.getByText("다시 시도")).toBeTruthy();
+  });
 });
