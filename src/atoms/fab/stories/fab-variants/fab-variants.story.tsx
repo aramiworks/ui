@@ -11,6 +11,12 @@ const meta: Meta<FabProps> = {
   args: {
     icon: "add",
   },
+  parameters: {
+    design: {
+      type: "figma",
+      url: `${FIGMA_BASE}1509-7`,
+    },
+  },
 };
 
 export default meta;
@@ -18,28 +24,16 @@ type Story = StoryObj<FabProps>;
 
 export const Primary: Story = {
   args: { color: "primary" },
-  parameters: {
-    design: { type: "figma", url: `${FIGMA_BASE}122-14` },
-  },
 };
 
 export const Secondary: Story = {
   args: { color: "secondary" },
-  parameters: {
-    design: { type: "figma", url: `${FIGMA_BASE}122-27` },
-  },
 };
 
 export const Tertiary: Story = {
   args: { color: "tertiary" },
-  parameters: {
-    design: { type: "figma", url: `${FIGMA_BASE}122-40` },
-  },
 };
 
 export const Surface: Story = {
   args: { color: "surface" },
-  parameters: {
-    design: { type: "figma", url: `${FIGMA_BASE}122-53` },
-  },
 };
