@@ -51,7 +51,7 @@ const meta: Meta = {
   parameters: {
     design: {
       type: "figma",
-      url: "https://www.figma.com/design/placeholder",
+      url: "https://www.figma.com/design/b79qv459pnXaypgNQfNXuc/ui?node-id=2233-2",
     },
   },
 };
