@@ -24,6 +24,8 @@ export type {
   EligibilityBadgeProps,
   EligibilityStatus,
 } from "./eligibility-badge";
+export { ErrorStateCard } from "./error-state-card";
+export type { ErrorStateCardProps } from "./error-state-card";
 export { DatePicker } from "./date-picker";
 export type {
   DatePickerProps,
