@@ -11,7 +11,7 @@ const meta: Meta<DividerProps> = {
   parameters: {
     design: {
       type: "figma",
-      url: `${FIGMA_BASE}1-4`,
+      url: `${FIGMA_BASE}1469-8`,
     },
   },
 };

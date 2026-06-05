@@ -8,7 +8,7 @@ const meta: Meta<BadgeProps> = {
   parameters: {
     design: {
       type: "figma",
-      url: "https://www.figma.com/design/b79qv459pnXaypgNQfNXuc/atoms?node-id=0-1",
+      url: "https://www.figma.com/design/b79qv459pnXaypgNQfNXuc/atoms?node-id=1066-31",
     },
   },
 };

@@ -14,7 +14,7 @@ const meta: Meta<IconProps> = {
   parameters: {
     design: {
       type: "figma",
-      url: `${FIGMA_BASE}52-3`,
+      url: `${FIGMA_BASE}1581-28`,
     },
   },
 };
