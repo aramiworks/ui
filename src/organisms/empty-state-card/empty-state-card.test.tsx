@@ -111,4 +111,32 @@ describe("EmptyStateCard", () => {
     const { toJSON } = render(<EmptyStateCard title="No alerts yet" />);
     expect(toJSON()).toBeTruthy();
   });
+
+  it("renders icon without a testID", () => {
+    const { toJSON } = render(
+      <EmptyStateCard title="No alerts yet" icon="notifications" />,
+    );
+    expect(toJSON()).toBeTruthy();
+  });
+
+  it("renders message without a testID", () => {
+    const { toJSON } = render(
+      <EmptyStateCard
+        title="No alerts yet"
+        message="You'll see alerts here once items restock."
+      />,
+    );
+    expect(toJSON()).toBeTruthy();
+  });
+
+  it("renders action button without a testID", () => {
+    const { toJSON } = render(
+      <EmptyStateCard
+        title="No alerts yet"
+        actionLabel="Browse catalog"
+        onAction={() => {}}
+      />,
+    );
+    expect(toJSON()).toBeTruthy();
+  });
 });
