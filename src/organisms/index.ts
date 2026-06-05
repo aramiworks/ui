@@ -64,6 +64,8 @@ export type {
   DrawerDestination,
   DrawerSection,
 } from "./navigation-drawer";
+export { SkeletonCard } from "./skeleton-card";
+export type { SkeletonCardProps, SkeletonCardSize } from "./skeleton-card";
 export { Snackbar } from "./snackbar";
 export type { SnackbarProps } from "./snackbar";
 export { TabBar } from "./tab-bar";
