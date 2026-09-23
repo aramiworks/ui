@@ -28,18 +28,18 @@ jobs:
           node-version: 20
           cache: npm
 
-      - name: Generate claude-arami bot token
-        id: claude-arami-token
+      - name: Generate openclaw bot token
+        id: openclaw-bot-token
         uses: actions/create-github-app-token@v1
         with:
-          app-id: ${{ secrets.CLAUDE_ARAMI_APP_ID }}
-          private-key: ${{ secrets.CLAUDE_ARAMI_PRIVATE_KEY }}
+          app-id: ${{ secrets.OPENCLAW_BOT_APP_ID }}
+          private-key: ${{ secrets.OPENCLAW_BOT_PRIVATE_KEY }}
 
       - name: Run Claude Code — extract & build tokens
         uses: anthropics/claude-code-action@v1
         with:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
-          github_token: ${{ steps.claude-arami-token.outputs.token }}
+          github_token: ${{ steps.openclaw-bot-token.outputs.token }}
           prompt: |
             You are running an automated token sync for the aramiworks/ui design system.
 
